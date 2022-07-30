@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
  height: 60px;
+ margin-bottom: 20px;
 `;
 
 const Wrapper = styled.div`
@@ -25,7 +26,7 @@ const Location = styled.span`
 `;
 
 const SearchContainer = styled.div`
-  border: 1px solid lightpink;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   margin-left: 25px;
@@ -54,6 +55,7 @@ const LinkItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
+  font-weight: bold;
 `
 
 function Navbar() {
@@ -64,13 +66,13 @@ function Navbar() {
           <Location> US </Location>
           <SearchContainer>
             <Input />
-            <Search style={{color: 'pink', fontSize: 16}}/>
+            <Search style={{color: 'grey', fontSize: 16}}/>
           </SearchContainer>
         </Left>
         <Center> <Logo> formedright. </Logo> </Center>
         <Right>
-          <LinkItem> create account </LinkItem>
-          <LinkItem> sign-in </LinkItem>
+          <LinkItem> CREATE ACCOUNT </LinkItem>
+          <LinkItem> SIGN-IN</LinkItem>
           <LinkItem> 
           <Badge badgeContent={4} color="secondary">
           <ShoppingCartOutlined />
