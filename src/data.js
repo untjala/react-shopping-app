@@ -1,17 +1,15 @@
-import imgOne from './images/formedright1.jpeg';
-import imgTwo from './images/formedright3.jpeg';
-import imgThree from './images/formedright5.jpeg';
-import jeans from './images/frjeans.jpeg'
-import tops from './images/formedrighttops.jpeg'
-import sets from './images/formedrightsets.jpeg'
-import jeans1 from './images/jeans1.jpeg'
-import jeans2 from './images/jeans2.jpeg'
-import jeans3 from './images/jeans3.jpeg'
-import top1 from './images/top1.jpeg'
-import top2 from './images/top2.jpeg'
-import top3 from './images/top3.jpeg'
-import lounge2 from './images/lounge2.jpeg'
-import lounge3 from './images/lounge3.jpeg'
+import imgOne from './images/womens/formedright1.jpeg';
+import imgTwo from './images/mens/mset2.jpeg';
+import imgThree from './images/mixed/denim.jpeg';
+import jeans from './images/womens/wdenim6.jpeg'
+import tops from './images/womens/lounge4.jpeg'
+import sets from './images/mixed/miset1.jpeg'
+import set1 from './images/womens/set1.jpeg'
+import mset1 from './images/mens/mset1.jpeg'
+import miset2 from './images/mixed/miset2.jpeg'
+import top5 from './images/mens/top5.jpeg'
+import top4 from './images/womens/top4.jpeg'
+import top3 from './images/mens/top3.jpeg'
 
 export const carouselItems = [
   {
@@ -29,8 +27,8 @@ export const carouselItems = [
   {
   id: 3,
   img: imgThree,
-  title: "SALE SEASON",
-  description: "GRAB THESE FAN FAVORITES AT UP TO 60% OFF,"
+  title: "DENIM DARLINGS",
+  description: "SELECT JEANS UP TO 40%,"
 },
 ]
 
@@ -38,7 +36,7 @@ export const categories = [
   {
     id:1 ,
     img: jeans,
-    title: "CLASSIC JEANS",
+    title: "CLASSIC DENIM",
   },
   {
     id:2 ,
@@ -54,35 +52,27 @@ export const categories = [
 
 export const topProducts = [
   {
-    id: 2,
-    img: jeans2,
+    id: 1,
+    img: set1,
   },
   {
-    id: 5,
-    img: top2,
+    id: 2,
+    img: mset1,
   },
   {
     id: 3,
-    img: jeans3,
+    img: miset2,
   },
   {
     id: 4,
-    img: top1,
+    img: top5,
   },
   {
-    id: 1,
-    img: jeans1,
-  },
-  {
-    id: 8,
-    img: lounge3,
+    id: 5,
+    img: top4,
   },
   {
     id: 6,
     img: top3,
-  },
-  {
-    id: 7,
-    img: lounge2,
   },
 ]
