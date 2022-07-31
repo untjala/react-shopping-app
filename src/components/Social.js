@@ -17,16 +17,22 @@ const Title = styled.h2`
 
 const Description = styled.p`
   font-size: 15px;
-  font-weight: 200;
+  font-style: italic;
   display: flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: 1px;
 `;
+// const Span = styled.p `
+//   font-weight: bold;
+//   font-style: italic;
+  
+// `
 function Social () {
   return (
     <> 
       <Title> WE LOOK GOOD ON YOU</Title>
-      <Description> use the hashtag <strong>#formedrightdaily</strong> and mention us at @formedright for a chance to be featured</Description>
+      <Description> use the hashtag #formedrightdaily and mention us at @formedright for a chance to be featured</Description>
     <Container >
        {socialItems.map((item) => (
         <SocialItems item={item} key={item.id}/>

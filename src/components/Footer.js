@@ -66,7 +66,7 @@ function Footer() {
     <Container>
       <Left>
         <Logo> formedright. </Logo>
-        <Description> we find brands that make quality clothing, formed to last. our mission is sustainable, slow fashion.
+        <Description> we only source brands that make quality clothing, formed to last. our mission is sustainable, slow fashion.
         </Description>
         <Socials>
           <SocIcon color="c4aead">

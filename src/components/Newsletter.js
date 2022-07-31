@@ -73,7 +73,7 @@ function Newsleter() {
 
   return (
     <Container>
-      <Title> LET'S BE FRIENDS </Title>
+      <Title> LET'S BE BESTIES </Title>
       <Description> friends keep friends up to date on the latest styles. </Description>
       <InputContainer>
         <Input 
