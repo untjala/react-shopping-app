@@ -3,6 +3,7 @@ import Broadcast from '../components/Broadcast';
 import Navbar from '../components/Navbar';
 import Carousel from '../components/Carousel';
 import Categories from '../components/Categories';
+import Products from '../components/Products';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
     <Navbar />
     <Carousel />
     <Categories />
+    <Products />
     </div>
     
   )

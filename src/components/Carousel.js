@@ -86,7 +86,7 @@ function Carousel() {
       </Arrow>
       <Wrapper carouselIndex={carouselIndex}>
         {carouselItems.map((item)=> (
-          <CarouselContainer>
+          <CarouselContainer key={item.id}>
           <ImageContainer>
             <Image src={item.img} />
           </ImageContainer>
