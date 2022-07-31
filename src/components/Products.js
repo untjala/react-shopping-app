@@ -9,13 +9,26 @@ const Container = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
 `;
+const Title = styled.div`
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+`;
+
 function Products() {
   return (
+    <> 
+      <Title> SHOP OUR FAVORITES </Title>
     <Container >
     {topProducts.map((item) => (
         <ProdItems item={item} key={item.id}/>
       ))}
     </Container>
+    </>
   )
 }
 

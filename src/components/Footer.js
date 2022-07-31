@@ -2,6 +2,7 @@ import { Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from '@materi
 import React from 'react'
 import styled from 'styled-components'
 import payment from '../images/payment.png'
+
 const Container = styled.div`
   display: flex;
 `;
@@ -23,8 +24,6 @@ const SocIcon = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  color: white;
-  background-color: #${props => props.color};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,8 +86,8 @@ function Footer() {
           <ListItem>HOME</ListItem>
           <ListItem>CART </ListItem>
           <ListItem>WOMENS</ListItem>
-          <ListItem>MENS</ListItem>
           <ListItem>ACCESSORIES</ListItem>
+          <ListItem>MENS</ListItem>
           <ListItem>MY ACCOUNT</ListItem>
           <ListItem>ORDERS</ListItem>
           <ListItem>TERMS</ListItem>
