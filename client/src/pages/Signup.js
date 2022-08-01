@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import bg from '../images/jeansbg.jpeg'
+import { mobile } from "../responsive";
 
 const Container = styled.div `
   width: 100vw;
@@ -18,6 +19,7 @@ const Wrapper = styled.div `
   width: 40%;
   padding: 20px;
   background-color: #cfcfc4;
+  ${mobile({ width: "75%" })}
 `;
 
 const Form = styled.form `

@@ -2,12 +2,15 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import React, {useState} from "react";
 import styled from "styled-components";
 import { carouselItems } from "../data";
+import { mobile } from "../responsive";
+
 const Container = styled.div`
   height: 100%;
   height: 100vh;
   display: flex;
   overflow: hidden;
   position: relative; 
+  ${mobile({ display: "none" })}
 `;
 const Arrow = styled.div`
   width: 50px;
@@ -79,6 +82,7 @@ function Carousel() {
       setCarouselIndex(carouselIndex < 2 ? carouselIndex +1 : 0)
     }
   };
+  
   return (
     <Container>
       <Arrow direction="left" onClick={ ()=>handleclick("left")}>

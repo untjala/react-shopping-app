@@ -6,12 +6,15 @@ import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import set1 from '../images/womens/set1.jpeg'
 import { Add, Remove } from '@material-ui/icons'
+import { mobile } from "../responsive";
 
 const Container = styled.div``
 
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
+  ${mobile({ padding: "10px", flexDirection:"column" })}
+
 `;
 const ImageContainer = styled.div`
   flex: 1;
